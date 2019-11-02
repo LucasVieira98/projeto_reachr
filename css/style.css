@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eeedee;
+}
+
+p {
+    font-size: 19px;
+}
+
+h2 {
+    border-left: 4px solid  #dc9b33;
+    padding-left: 6px;
+    margin-top: 15px;
+}
+
+/*Formatação MENU*/
+nav {
+    background: #ffffff;
+}
+
+.nav-menu {
+    font-size: 18px;
+}
+
+#selecionado {
+    font-weight: bold;
+    color: #dc9b33;
+}
+
+@media (min-width: 1024px) {
+
+    #selecionado {
+        border-right: 1px solid black;
+        
+    }
+    
+}
+
+.home {
+    color: #000000;
+}
+/*Formatação CAPA*/
+.capa {
+    width: 100%;
+    height: 100%;
+
+}
+
+@media (max-width: 991px) {
+
+    .img-capa {
+        display: none; 
+    }
+
+    #img-perfil {
+        margin-top: 0px;
+    }
+}
+
+/*Formatação Header*/
+.img-perfil {
+    margin-top: -75px;
+    border: 1px solid black;
+}
+
+.btn-compart {
+    margin-top: 80px;
+    background-color: #dc9b33;
+}
+
+.btn-compart:hover {
+    background-color: #dc9b33;
+}
+
+/*Formatação Seções*/
+.inf-vaga {
+    border: 1px solid #d7dcde;
+    background: #f5f5f5;
+    margin-top: 30px;
+}
+
+.btn-config {
+    margin-top: 20px;
+    background-color: #dc9b33;
+}
+
+.btn-config:hover {
+    background-color: #dc9b33;
+}
+
+.cor {
+    color: #dc9b33;
+    font-size: 28px;
+}
+
+/*Formatação Footer*/
+.footer {
+    background: #ffffff;
+    font-size: 20px;
+}
+
+
+
